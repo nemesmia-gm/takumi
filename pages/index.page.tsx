@@ -1,8 +1,8 @@
+import type { NextPage } from "next";
 import styled from "styled-components";
 
-const StyledTitle = styled.div<{ color: string }>`
+const StyledTitle = styled.div`
   height: 200px;
-  background-color: ${(props)=> props.color };
   color: red;
   font-size: 50px;
 
@@ -17,4 +17,3 @@ const Home: NextPage = () => {
 };
 
 export default Home;
-
